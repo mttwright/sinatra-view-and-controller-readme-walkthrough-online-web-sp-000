@@ -10,7 +10,7 @@
     <h1>The Ultimate Reversed String!</h1>
 
     <!--   Use ERB tags to bring in an instance variable containing the reversed string -->
-    <p>Reversed string is <%= params[:string].reverse %></p>
+    <p>Reversed string is <%= params[:string].reverse.downcase %></p>
 
   </body>
 </html>
