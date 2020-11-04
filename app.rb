@@ -6,8 +6,6 @@ class App < Sinatra::Base
   end
 
   post '/reverse' do
-    puts "bologna"
-    puts params
     erb :reversed
   end
 
