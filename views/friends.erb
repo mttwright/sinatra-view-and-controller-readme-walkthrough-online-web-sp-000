@@ -11,11 +11,9 @@
 
     <!-- Iterate through the @friends array here to display each item in its own <h2> tag -->
     
-    <ol>
       <% @friends.each do |friend| %>
-      <li><%= friend %></li>
+      <h2><%= friend %></h2>
       <% end %>
-    </ol>
     
 
   </body>
